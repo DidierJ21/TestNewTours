@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="New Tours" tests="2" skipped="0" failures="1" errors="0" timestamp="2018-10-25T11:32:26" hostname="RC-PC" time="155.722">
+  <properties/>
+  <testcase name="Autentication User" classname="New Tours" time="65.641"/>
+  <testcase name="Autentication User" classname="New Tours" time="90.079">
+    <failure message="java.lang.AssertionError: User no register in the aplication please complete the register - &#10;Expected: a collection containing &quot;SIGN-OFF&quot;&#10;     but: " type="java.lang.AssertionError">java.lang.AssertionError: User no register in the aplication please complete the register - 
+Expected: a collection containing &quot;SIGN-OFF&quot;
+     but: 
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:244)
+	at com.newtours.demoaut.automation.stepdefinitions.NewToursStepDefinitions.sheShouldEnter(NewToursStepDefinitions.java:65)
+	at ✽.She should enter No Login(src/test/resources/features/LoginNewToursScreenPlay.feature:14)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[oct 25, 2018 6:32:27 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 35531
+Only local connections are allowed.
+oct 25, 2018 6:32:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Autentication User
+----------------------------------------------------------------------------
+oct 25, 2018 6:33:32 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+oct 25, 2018 6:33:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Autentication User
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then user no register should be a collection containing 'SIGN-OFF'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - User no register in the aplication please complete the register - Expected: a collection containing "SIGN-OFF" but:
+]]></system-err>
+</testsuite>
